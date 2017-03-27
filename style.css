@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.container {
+	width: 100%;
+    height: 400px;
+    max-width: 1200px;
+    display: flex;   
+    background-color: #125f6f;
+    margin:0 auto;
+}
+
+.projects {
+    flex-grow: 1;
+
+}
+
+.profile {
+    width: 30%;
+    background-color: #01272f;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+    background-position: center;
+    margin: 45px auto;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.links ul li a {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
