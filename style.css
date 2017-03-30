@@ -41,7 +41,8 @@ span.name {
 }
 
 span.highlights {
-    color: #e3e4ef;
+    color: #b5a2ff;
+    line-height: 18px;
     font-weight: bold;
     font-family: verdana;
     font-size: 12px;
