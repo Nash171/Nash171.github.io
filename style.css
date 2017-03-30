@@ -9,7 +9,6 @@ body {
 
 .container {
 	width: 100%;
-    height: 400px;
     max-width: 1200px;
     display: flex;   
     background-color: #125f6f;
@@ -22,35 +21,58 @@ body {
 }
 
 .profile {
+    display: flex;
+    flex-direction: column;
     width: 30%;
+    max-width: 360px;
     background-color: #01272f;
 }
 
 .profile-pic{
-    width: 200px;
-    height: 200px;
-    background-image: url(profile.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #fff;
-    background-position: center;
-    margin: 45px auto;
+    width: 60%;
+    margin: 30px auto 10px;
     border-radius: 50%;
-    border: 10px solid #ffffff;
+    border: 8px solid #ffffff;
+}
+
+span.name {
+    color: #fff;
+    font-family: cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+span.highlights {
+    color: #e3e4ef;
+    font-weight: bold;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 5px 20px;
+    text-align: justify;
 }
 
 .links ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 20px;
-    padding: 10px 30px;
+    padding: 5px 20px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
 }
 
 .links ul li a {
     display: block;
+    height: 30px;
+    margin: 5px;
+}
+
+.links ul li.main a {
     height: 40px;
-    width: 40px;
+}
+
+.links ul li a img {
+    width: 100%;
+    height: 100%;
 }
