@@ -1,23 +1,21 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-body {
-
-}
+body {}
 
 .container {
-	width: 100%;
+    width: 100%;
     max-width: 1200px;
-    display: flex;   
+    display: flex;
     background-color: #125f6f;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .projects {
     flex-grow: 1;
-
 }
 
 .profile {
@@ -28,7 +26,7 @@ body {
     background-color: #01272f;
 }
 
-.profile-pic{
+.profile-pic {
     width: 60%;
     margin: 30px auto 10px;
     border-radius: 50%;
@@ -51,7 +49,7 @@ span.highlights {
     text-align: justify;
 }
 
-.links ul{
+.links ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
